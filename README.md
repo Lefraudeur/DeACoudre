@@ -7,7 +7,7 @@ Dependencies:
  - Vault
  - Economy Plugin compatible with Vault
 
-Put your map in a folder named for example "crystal", and make sure the name of the folder corresponds to one of the arena names in config.yml
+Put your map in a folder named for example "crystal", and make sure the name of the folder corresponds to one of the arena names in config.yml.
 You have to edit all the positions manually in the config.yml. There isn't any setup system
 
 This is a draft plugin, the code is not well structured, there are surely lot of bugs, and the plugin creates useless threads which may have a negative performance impact.
