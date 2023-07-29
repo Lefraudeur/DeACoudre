@@ -18,7 +18,7 @@ Cool features :
 
 Bad things:
  - My first plugin
- - I don't like java
+ - I don't like java, I've always focused on C++
  - Code is shit
 
 Put your map in a folder named for example "crystal", and make sure the name of the folder corresponds to one of the arena names in config.yml.
