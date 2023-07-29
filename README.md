@@ -16,6 +16,11 @@ Cool features :
  - Block selector (select the block placed when you fall into water)
  - Multi Arena, multiple games can be started at the same time on the same server, no need to create multiple servers
 
+Bad things:
+ - My first plugin
+ - I don't like java
+ - Code is shit
+
 Put your map in a folder named for example "crystal", and make sure the name of the folder corresponds to one of the arena names in config.yml.
 You have to edit all the positions manually in the config.yml. There isn't any setup system
 
