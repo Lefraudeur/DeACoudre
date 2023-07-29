@@ -11,3 +11,5 @@ Put your map in a folder named for example "crystal", and make sure the name of 
 You have to edit  all the positions manually in the config.yml.
 
 This is a draft plugin, the code is not well structured, there are surely lot of bugs, and the plugin creates useless threads which may have a negative performance impact.
+
+Download: https://github.com/Lefraudeur/DeACoudre/releases/download/v1.0-snapshot/DeACoudre-1.0-SNAPSHOT.jar
