@@ -15,6 +15,7 @@ Dependencies:
 Cool features :
  - Block selector (select the block placed when you fall into water)
  - Multi Arena, multiple games can be started at the same time on the same server, no need to create multiple servers
+ - At least it kinda works
 
 Bad things:
  - My first plugin
