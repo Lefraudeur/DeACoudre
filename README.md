@@ -3,7 +3,7 @@ De A Coudre plugin for spigot 1.8.8, but also tested on 1.19.
 Designed to be used in a BungeeCord network since it makes you join a game when you login
 
 Dependencies:
- - PlaceholderAPI
+ - PlaceholderAPI + player extension : /papi ecloud download player
  - Vault
  - Economy Plugin compatible with Vault
 
