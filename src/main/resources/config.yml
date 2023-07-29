@@ -1,0 +1,69 @@
+arenas:
+  crystal:
+    waitingSpawn:
+      x: 40.0
+      y: 80.0
+      z: 40.0
+      yaw: 0.0
+      pitch: 0.0
+    startingLocation:
+      x: 0.0
+      y: 80.0
+      z: 0.0
+      yaw: 0.0
+      pitch: 0.0
+    spectatorLocation:
+      x: 0.0
+      y: 80.0
+      z: 0.0
+      yaw: 0.0
+      pitch: 0.0
+    min-players: 2
+    max-players: 5
+    reward-onwin: 200
+    reward-onlife: 10
+    reward-onscore: 5
+
+scoreboards:
+  waiting:
+    name: "De A Coudre"
+    scores:
+      - "&4Dé à Coudre&f"
+      - "%player_name%"
+      - ""
+      - "&4Démarrage dans>"
+      - "&6%timer%"
+      - ""
+      - "&cexample.com"
+  playing:
+    name: "De A Coudre"
+    scores:
+      - "%player_name% >"
+      - ""
+      - "%score%"
+      - ""
+      - "&6Current Turn: &7%current_turn%"
+      - "&6Time remaining: %timer%"
+      - "&6Next Turn: &7%next_turn%"
+
+lobby-server: "lobby"
+
+messages:
+  block-selector: "§2Block Selector"
+  not-enough-players: "§6Not Enough Players"
+  onscore: "§2+1 §7Score §6+%money%$"
+  onlife: "§2+1 §7life §6+%money%$"
+  lifeloss: "§4-1 §7life"
+  eliminated: "§6 %player_name% §4was eliminated"
+  onjoin: "%player_name% joined the arena %player_count% / %player_min% (max:%player_max%)"
+  onleave: "%player_name% left the arena"
+  gamefull: "§6Game Full !"
+  startcancelled: "Game start cancelled, not enough players"
+  starting-game: "Starting Game..."
+  starting-in: "§6Game starting in §2%timer% seconds"
+  onwin-winner: "§2Congratulations ! You won ! §6+%money%$"
+  onwin-others: "§2Game ended ! Winner: %player_name%"
+  playerturn: "§2%player_name's turn"
+  afk: "§cYou didn't play so you lost §4one life"
+  chat-format: "%player_name% > %message%"
+  spectate: "Spectate"

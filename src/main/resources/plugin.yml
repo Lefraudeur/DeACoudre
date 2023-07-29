@@ -1,0 +1,46 @@
+  name: DeACoudre
+  main: io.github.Lefraudeur.DeACoudre.Main
+  version: 1.8.8
+  api-version: 1.13
+  depend: [ PlaceholderAPI, Vault ]
+
+  commands:
+    dacreload:
+      description: Reload the plugin
+      usage: "§cUsage: /dacreload"
+      permission: dac.reload
+    dacadmin:
+      description: admin commands for dac
+      usage: |
+        §cUsage: /dacadmin <subcommand>
+        §6Available subcommands:
+        §f- wand (Used to define regions to configure the minigame)
+        §f- setuparena <arenaName> (Configure or create a new Arena)
+      permission: dac.admin
+    scoreboard:
+      aliases:
+        - "sb"
+      description: "Disable/Enable your scoreboard"
+      usage: "§cUsage: /scoreboard <on/off>"
+      permission: dac.scoreboard
+    forcestart:
+      description: "Shortens the countdown before the game starts"
+      usage: "§cUsage: /forcestart"
+      permission: dac.forcestart
+
+  permissions:
+    dac.reload:
+      description: Allows you to use /dacreload
+      default: op
+    dac.admin:
+      description: Allows you to use /dacadmin
+      default: op
+    dac.forcestart:
+      description: Allows you to use /forcestart
+      default: op
+    dac.scoreboard:
+      description: "Allows you to use /scoreboard"
+      default: true
+    dac.spectate:
+      description: "Gives you an item to spectate games"
+      default: op
