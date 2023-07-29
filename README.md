@@ -2,6 +2,11 @@
 Dé A Coudre plugin for spigot 1.8.8, but also tested on 1.19.
 Designed to be used in a BungeeCord network since it makes you join a game when you login
 
+If you are here, you already know what this minigame is about.
+Very simple : Each player jump need to jump into water to survive and not die from fall damage. When a player lands on water, a block is placed where he landed, which makes the game harder.
+When a player lands in a single block of water, surrounded by only solid blocks, it gains one life.
+The last player alive wins
+
 Dependencies:
  - PlaceholderAPI + player extension : /papi ecloud download player
  - Vault
